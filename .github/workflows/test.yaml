@@ -6,7 +6,7 @@ jobs:
     runs-on: "ubuntu-latest"
     steps:
     - name: "Checkout"
-      uses: "actions/checkout@v4"
+      uses: "actions/checkout@v5"
     - name: "Build image"
       uses: "RadxaOS-SDK/rsdk/.github/actions/build@main"
       with:
@@ -31,7 +31,7 @@ jobs:
     runs-on: "ubuntu-latest"
     steps:
     - name: "Checkout"
-      uses: "actions/checkout@v4"
+      uses: "actions/checkout@v5"
     - name: "Generate changelog"
       uses: "radxa-repo/rbuild-changelog@main"
       with:
